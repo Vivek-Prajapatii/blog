@@ -1,15 +1,35 @@
 .signup-bar-container {
-    width: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(0, 0, 0, 0.7);
+
+  h1 {
+    margin: 0.5rem;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .search-bar-and-signup {
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
     align-items: center;
 
-    h1 {
-        margin: 0.2rem;
+    .search {
+      background-image: url("../../search-alt-svgrepo-com.svg");
+      background-size: cover;
+      width: 2rem;
+      height: 2rem;
+      margin-right: 1.5rem;
     }
 
-    .search-bar-and-signup {
-        display: flex;
-        justify-content: right;
+    .signup {
+      border-width: 2px;
+      padding: 0.6rem;
+      border-radius: 5px;
     }
+  }
 }

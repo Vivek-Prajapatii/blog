@@ -2,7 +2,20 @@ import React from "react";
 import "../styles/components/Archives.scss";
 
 function Archives() {
-  const arr = [0, 1, 2, 3, 4, 5];
+  const arr = [
+    "March 2014",
+    "February 2014",
+    "January 2019",
+    "December 2003",
+    "July 2005",
+    "November 2011",
+    "February 2012",
+    "January 2004",
+    "December 2005",
+    "July 2015",
+    "November 2012",
+    "June 2020",
+  ];
 
   return (
     <div className="archive-container">
@@ -10,7 +23,7 @@ function Archives() {
       {arr.map((item) => {
         return (
           <a href="">
-            <div>March 2014</div>
+            <div>{item}</div>
           </a>
         );
       })}
