@@ -1,0 +1,16 @@
+.about-container {
+  background-color: rgb(220, 239, 247);
+  border-radius: 5px;
+  padding: 1.5rem;
+  text-align: left;
+
+  h2 {
+    margin-top: 0.5rem;
+  }
+
+  p {
+    max-width: 90%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+}

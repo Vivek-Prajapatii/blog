@@ -1,0 +1,15 @@
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 3px;
+  border-left: 0cap;
+  border-right: 0cap;
+
+  border-style: groove;
+
+  div {
+    margin: 0.8rem 0rem;
+    width: 100;
+  }
+}

@@ -1,0 +1,34 @@
+.featured-blogs-container {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+
+  .blog-card {
+    width: 48%;
+    background-color: rgb(247, 243, 239);
+    border-radius: 0.3rem;
+    border: 3px;
+    border-style: groove;
+    display: flex;
+
+    .description {
+      text-align: left;
+      padding-left: 2rem;
+
+      p {
+        max-width: 20rem;
+        height: 6rem;
+        padding-right: 1rem;
+        overflow-y: hidden;
+        overflow-x: hidden;
+      }
+    }
+
+    .thumbnail {
+      background-color: rgb(201, 223, 217);
+      width: 12rem;
+      border-top-right-radius: 3px;
+      border-bottom-right-radius: 3px;
+    }
+  }
+}

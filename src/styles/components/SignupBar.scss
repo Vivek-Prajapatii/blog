@@ -1,0 +1,15 @@
+.signup-bar-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h1 {
+        margin: 0.2rem;
+    }
+
+    .search-bar-and-signup {
+        display: flex;
+        justify-content: right;
+    }
+}
