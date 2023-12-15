@@ -6,6 +6,17 @@
     margin-top: 0.2rem;
     margin-bottom: 1rem;
     font-style: italic;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 4rem;
+
+    span {
+      font-size: 30px;
+      font-style: none;
+      text-decoration: none;
+      cursor: pointer;
+    }
   }
 
   h1 {
@@ -30,6 +41,17 @@
     border-right: 0cap;
     border-style: groove;
     border-color: rgb(0, 0, 0, 0.2);
+
+    pre {
+      font-family: "Roboto";
+      width: inherit;
+      color: rgb(0, 0, 0, 0.8);
+
+      white-space: pre-line;
+    }
+
+    margin-top: 20px;
+    white-space: pre-line; /* Preserve newline characters and formatting */
   }
 
   .button-stack {

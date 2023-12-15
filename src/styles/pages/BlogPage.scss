@@ -8,14 +8,19 @@
   .blogs-and-about {
     display: flex;
     justify-content: space-between;
-    margin-top: 2rem;
+    margin-top: 2rem; 
+  }
 
-    .blogs {
-      width: 70%;
-    }
-
-    .about {
- width: 30%;       
-    }
+  .about {
+    min-width: 20rem;
   }
 }
+
+@media (max-width: 800px) {
+  .blogs-and-about {
+    flex-direction: column;
+  }
+}
+  
+
+
