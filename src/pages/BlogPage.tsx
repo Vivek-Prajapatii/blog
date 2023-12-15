@@ -1,13 +1,14 @@
 import React from "react";
 import "../styles/pages/BlogPage.scss";
-import SignupBar from "../components/SignupBar";
-import NavBar from "../components/NavBar";
 import Banner from "../components/Banner";
 import FeaturedBlogs from "../components/FeaturedBlogs";
 import Blogs from "../components/Blogs";
 import About from "../components/About";
 import Archives from "../components/Archives";
 import ElseWhere from "../components/ElseWhere";
+import NavBar from "../components/header/NavBar";
+import SignupBar from "../components/header/SignupBar";
+import Footer from "../components/footer/Footer";
 
 function BlogPage() {
   return (
@@ -27,8 +28,8 @@ function BlogPage() {
           <Archives />
           <ElseWhere />
         </div>
-              
       </div>
+      <Footer />
     </div>
   );
 }

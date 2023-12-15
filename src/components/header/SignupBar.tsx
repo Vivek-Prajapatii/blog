@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/components/SignupBar.scss"
+import "../../styles/components/header/SignupBar.scss"
 
 function SignupBar() {
   return (

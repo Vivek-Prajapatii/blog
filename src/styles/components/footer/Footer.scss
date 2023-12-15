@@ -1,0 +1,21 @@
+.footer-container {
+  height: 4rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: aliceblue;
+
+  .follow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .icons {
+      margin-left: 1rem;
+
+      svg {
+        padding: 0.5rem;
+      }
+    }
+  }
+}
