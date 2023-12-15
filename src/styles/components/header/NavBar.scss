@@ -1,5 +1,6 @@
 .navbar-container {
   display: flex;
+  flex-wrap: nowrap;
   flex-direction: row;
   justify-content: space-between;
   border: 3px;
@@ -11,5 +12,11 @@
   div {
     margin: 0.8rem 0rem;
     width: 100;
+  }
+}
+
+@media(max-width: 800px) {
+  .navbar-container {
+    display: none;
   }
 }

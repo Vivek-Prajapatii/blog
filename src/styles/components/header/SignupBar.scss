@@ -5,6 +5,21 @@
   align-items: center;
   color: rgb(0, 0, 0, 0.7);
 
+  .subscribe {
+    width: 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+
+    .menu-icon {
+      display: none;
+      @media (max-width: 800px) {
+        display: flex;
+      }
+    }
+  }
+
   h1 {
     margin: 0.5rem;
   }
@@ -31,5 +46,11 @@
       padding: 0.6rem;
       border-radius: 5px;
     }
+  }
+}
+
+@media (max-width: 800px) {
+  .menu-icon {
+    display: flex;
   }
 }
