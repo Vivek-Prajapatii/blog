@@ -10,14 +10,14 @@ function Blogs(props: { setPost: Function; postData: any }) {
   return (
     <div className="blogs-container">
       <h2>
-        From the Firehose{" "}
-        <span
+        From the Firehose
+        <button
           onClick={() => {
             handleClick();
           }}
         >
-          +
-        </span>
+          Post New Blog{" "}
+        </button>
       </h2>
       {postData &&
         postData.map((item: any) => {
@@ -32,29 +32,28 @@ function Blogs(props: { setPost: Function; postData: any }) {
           );
         })}
       <div className="blog">
-        <h1>Sample blog post</h1>
-        <span>January 1, 2014 by John</span>
+        <h1>Creating Forms</h1>
+        <span>January 1, 2023 by John</span>
         <p>
-          The emergence and growth of blogs in the late 1990s coincided with the
-          advent of web publishing tools that facilitated the posting of content
-          by non-technical users who did not have much experience with HTML or
-          computer programming and early Web users therefore tended to be
-          hackers and computer enthusiasts.
+          Input fields. Text areas. Radio buttons and checkboxes. These are some
+          of the main interaction points we, as developers, have with our users.
+          We put them front and center, users fill them out as best as they can,
+          and with any luck, they’ll send it back to you without any validation
+          errors.
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-          tenetur beatae itaque labore eos laborum adipisci aliquam quibusdam!
-          Nulla maiores quas qui placeat nisi earum accusamus dicta porro cumque
-          repudiandae.
+          Form handling is an integral part of a large number of web apps, and
+          it’s one of the things React does best. You have a lot of freedom to
+          implement and control those input controls how you want, and there are
+          plenty of ways to achieve the same goal. But is there a best practice?
+          Is there a best way to do things?
         </p>
         <p>
-          The emergence and growth of blogs in the late 1990s coincided with the
-          advent of web publishing tools that facilitated the posting of content
-          by non-technical users who did not have much experience with HTML or
-          computer programming. Previously, knowledge of such technologies as
-          HTML and File Transfer Protocol had been required to publish content
-          on the Web, and early Web users therefore tended to be hackers and
-          computer enthusiasts.
+          This article will show you a few different ways to handle form values
+          in React. We’ll look at useState, custom Hooks, and, finally, no state
+          at all! Note that we will create a login form with an email and a
+          password field in all of these examples, but these techniques can be
+          used with most types of forms.{" "}
         </p>
       </div>
       <div className="button-stack">

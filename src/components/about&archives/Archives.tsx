@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/components/Archives.scss";
+import "../../styles/components/about&archives/Archives.scss";
 
 function Archives() {
   const arr = [
@@ -22,9 +22,9 @@ function Archives() {
       <h2>Archives</h2>
       {arr.map((item) => {
         return (
-          <a href="">
-            <div>{item}</div>
-          </a>
+          <div>
+            <a>{item}</a>
+          </div>
         );
       })}
     </div>

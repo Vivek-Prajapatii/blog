@@ -1,6 +1,5 @@
-.elsewhwere-container {
+.archive-container {
   padding: 1.5rem;
-  padding-top: 0.5rem;
   text-align: left;
 
   h2 {
@@ -10,12 +9,14 @@
     margin-bottom: 0.5rem;
   }
 
-  a {
-    text-decoration: none;
+  div {
+    font-style: none;
 
-    div {
+    a {
+      text-decoration: none;
       line-height: 1.5rem;
-      font-style: none;
+      cursor:pointer;
+      color: rgb(0, 119, 255);
     }
   }
 }
